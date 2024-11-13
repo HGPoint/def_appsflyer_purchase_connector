@@ -1,0 +1,13 @@
+function init(self)
+	if appsflyer then
+		if appsflyer_purchase_connector then
+			---Setup Purchase connector
+			appsflyer_purchase_connector.set_sandbox(true)
+			appsflyer_purchase_connector.auto_log_inapps(true)
+
+			---Start observing
+			appsflyer_purchase_connector.start_observing_transactions()
+		end
+		appsflyer.start_sdk()
+	end
+end

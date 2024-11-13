@@ -1,0 +1,18 @@
+[project]
+title = def_appsflyer_purchase_connector
+dependencies#0 = https://github.com/defold/extension-iap/archive/refs/tags/6.2.0.zip
+dependencies#1 = https://github.com/AGulev/defold-extension-appsflyer/archive/refs/tags/0.8.2.zip
+
+[library]
+include_dirs = def_appsflyer_purchase_connector
+
+[android]
+minimum_sdk_version = 21
+package = com.happygames.test
+
+[bootstrap]
+main_collection = /main.collectionc
+
+[input]
+game_binding = /builtins/input/all.input_bindingc
+

@@ -1,0 +1,79 @@
+- name: def_appsflyer_purchase_connector
+  type: table
+  desc: Functions for interacting with Appsflyer Purchase Connector
+  members:
+
+#*****************************************************************************************************
+
+  - name: set_iap_additional_data
+    type: function
+
+    parameters:
+      - name: key
+        type: string
+      - name: value
+        type: string
+
+#*****************************************************************************************************
+
+  - name: set_subscriptions_additional_data
+    type: function
+
+    parameters:
+      - name: key
+        type: string
+      - name: value
+        type: string
+
+#*****************************************************************************************************
+
+  - name: set_subscriptions_additional_data
+    type: function
+
+    parameters:
+      - name: key
+        type: string
+      - name: value
+        type: string
+
+#*****************************************************************************************************
+
+  - name: set_sandbox
+    type: function
+
+    parameters:
+      - name: key
+        type: bool
+
+#*****************************************************************************************************
+
+  - name: log_subscriptions
+    type: function
+
+    parameters:
+      - name: key
+        type: bool
+
+#*****************************************************************************************************
+
+  - name: auto_log_inapps
+    type: function
+
+    parameters:
+      - name: key
+        type: bool
+
+#*****************************************************************************************************
+
+  - name: start_observing_transactions
+    type: function
+
+#*****************************************************************************************************
+
+  - name: stop_observing_transactions
+    type: function
+
+
+
+
+
